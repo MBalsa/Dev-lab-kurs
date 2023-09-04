@@ -1,0 +1,16 @@
+body {
+  color: blue;
+}
+
+.parag {
+  background-color: green;
+  color: blue;
+}
+
+#tag {
+  color: yellow;
+}
+
+input[type="checked"]:checked + label {
+  color: red;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="tag">Hello!</h1>
+    <h4>Ovo je h4</h4>
+    <p style="color: white" class="parag">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsam
+      excepturi eligendi labore ad recusandae architecto in expedita harum
+      officia, pariatur laboriosam alias impedit iste sed perferendis porro
+      officiis saepe?
+    </p>
+    <p class="parag">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsam
+      excepturi eligendi labore ad recusandae architecto in expedita harum
+      officia, pariatur laboriosam alias impedit iste sed perferendis porro
+      officiis saepe?
+    </p>
+    <a href="url">Link</a>
+    <span>This is inlin element</span>
+    <div>
+      <h2>This is my first list:</h2>
+      <h2>The most popular programing languages:</h2>
+      <ol type="i" start="iii">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+      </ol>
+    </div>
+    <div>
+      <h2>This is my second list:</h2>
+      <ul style="list-style-type: square">
+        <li>Coffe</li>
+        <li>Sugar</li>
+      </ul>
+    </div>
+    <div>
+      <table border>
+        <tr>
+          <th>Ime</th>
+          <th>Prezime</th>
+          <th>Adresa</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Marko</td>
+          <td colspan="2">Markovic</td>
+        </tr>
+        <tr>
+          <td>Ivanovic</td>
+          <td>Pljevlja</td>
+          <td>Ucenici</td>
+        </tr>
+      </table>
+      <br />
+      <table border style="text-align: center">
+        <tr>
+          <th colspan="5" style="background-color: grey">
+            My Multilevel Table
+          </th>
+        </tr>
+        <tr>
+          <th rowspan="2" colspan="2">Column 0</th>
+          <th rowspan="2">Column 1</th>
+          <th colspan="2">Column 2</th>
+        </tr>
+
+        <tr>
+          <th>Column 2a</th>
+          <th>Column 2b</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Row 1</td>
+          <td>Row 1a</td>
+          <td>123</td>
+          <td>456</td>
+          <td>789</td>
+        </tr>
+        <tr>
+          <td>Row 1b</td>
+          <td>123</td>
+          <td>456</td>
+          <td>789</td>
+        </tr>
+        <tr>
+          <td colspan="2">Row 2</td>
+          <td>123</td>
+          <td>456</td>
+          <td>789</td>
+        </tr>
+      </table>
+    </div>
+    <iframe
+      src="https://www.youtube.com"
+      frameborder="0"
+      ;
+      width="200px"
+      ;
+      height="200px"
+    ></iframe>
+
+    <form action="/test" method="get" target="_self">
+      <input type="text" name="" id="" placeholder="Enter some text" />
+      <input type="number" placeholder="Number" />
+      <input type="password" placeholder="password" />
+      <div>
+        <input type="checkbox" name="" id="" />
+        <label for="option">Option:</label>
+        <input type="radio" id="option" name="options" />
+        <label for="option2">Option 2:</label>
+        <input type="radio" id="option2" name="options" />
+      </div>
+
+      <div>
+        <label for="kec">Ketchup</label>
+        <input type="checkbox" id="kec" value="kec" />
+        <label for="sir">Sir</label>
+        <input type="checkbox" id="sir" value="sir" />
+        <label for="pec">Pecurke</label>
+        <input type="checkbox" id="pec" value="pec" />
+      </div>
+      <input type="file" />
+      <div>
+        <select name="select" id="select">
+          <option value="" disabled selected>Auta</option>
+          <option value="value-1">BMW</option>
+          <option value="value-2">audi</option>
+        </select>
+      </div>
+      <div>
+        <textarea
+          name="comment"
+          id="comment"
+          cols="50"
+          rows="10"
+          placeholder="Default comment..."
+        ></textarea>
+      </div>
+      <button type="submit">Submit</button>
+      <input type="button" value="dugme" />
+    </form>
+    <div>
+      <video src="" controls></video>
+      <audio src="" controls></audio>
+    </div>
+  </body>
+</html>
