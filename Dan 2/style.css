@@ -1,0 +1,62 @@
+ul.my-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.my-list li {
+  float: left;
+  margin: 1rem;
+}
+
+ul.my-list li:last-child {
+  float: both;
+}
+
+.wrapper {
+  border: 1px solid green;
+  background: rgba(144, 238, 144, 0.208);
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.container {
+  margin: 2rem 0;
+  clear: both;
+}
+
+.container > div {
+  width: 19%;
+  height: 30px;
+  border: solid 1px black;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 15px;
+  background-color: #8bc34a;
+  color: white;
+}
+
+.container .broj2 {
+  height: 150px;
+}
+
+.container .broj4 {
+  height: 60px;
+  /* clear: left; */
+}
+
+.container .broj6 {
+  height: 60px;
+}
+
+.container .broj7 {
+  height: 60px;
+}
+
+/* .container .broj8 {
+    clear: left;
+} */

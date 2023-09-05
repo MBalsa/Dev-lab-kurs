@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        width: 500px;
+        padding: 0.5rem;
+        border: 1px solid black;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 2fr 1fr;
+        background: url("https://images.unsplash.com/photo-1692736475316-a10cab395c61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1000&q=60");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .wrapper div {
+        height: 50px;
+        /* width: 100px; */
+        color: white;
+        background-color: teal;
+
+        text-align: center;
+        line-height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>Item 1</div>
+      <div>Item 2</div>
+      <div>Item 3</div>
+      <div>Item 4</div>
+      <div>Item 5</div>
+      <div>Item 6</div>
+    </div>
+  </body>
+</html>
